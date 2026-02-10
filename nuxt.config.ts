@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     cache: true,
   },
 
+  nitro: {
+    preset: "cloudflare",
+  },
+
   devtools: {
     enabled: true,
   },
