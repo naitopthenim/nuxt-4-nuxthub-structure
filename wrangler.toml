@@ -35,5 +35,5 @@ id = "d34573bc55734a0f9d970f546480855d"
 # สร้าง: npx wrangler r2 bucket create nuxt-hub-blob
 # ========================================
 [[r2_buckets]]
-binding = "R2_BLOB"
+binding = "BLOB"
 bucket_name = "travel-village-space"
