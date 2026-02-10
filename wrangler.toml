@@ -1,0 +1,39 @@
+# Cloudflare Pages + Workers Configuration
+# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
+
+name = "nuxt-hub-1"
+compatibility_date = "2025-01-15"
+pages_build_output_dir = ".output/public"
+
+# ========================================
+# D1 DATABASE
+# สร้าง: npx wrangler d1 create nuxt-hub-db
+# ========================================
+[[d1_databases]]
+binding = "DB"
+database_name = "travel_village"
+database_id = "7bbe61c0-9915-4085-9648-d2f999219bc9"
+
+# ========================================
+# KV NAMESPACE
+# สร้าง: npx wrangler kv namespace create KV
+# ========================================
+[[kv_namespaces]]
+binding = "KV"
+id = "9f2abc959b6744b08b96233db593c3f7"
+
+# ========================================
+# CACHE KV NAMESPACE
+# สร้าง: npx wrangler kv namespace create CACHE
+# ========================================
+[[kv_namespaces]]
+binding = "CACHE"
+id = "d34573bc55734a0f9d970f546480855d"
+
+# ========================================
+# R2 BUCKET
+# สร้าง: npx wrangler r2 bucket create nuxt-hub-blob
+# ========================================
+[[r2_buckets]]
+binding = "R2_BLOB"
+bucket_name = "travel-village-space"
