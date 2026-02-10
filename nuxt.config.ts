@@ -11,6 +11,13 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: "cloudflare-module",
+    cloudflare: {
+      wrangler: {
+        assets: {
+          binding: "STATIC_ASSETS",
+        },
+      },
+    },
   },
 
   devtools: {
