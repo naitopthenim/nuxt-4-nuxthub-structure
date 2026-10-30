@@ -14,23 +14,23 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.89",
-    "@iconify-json/simple-icons": "^1.2.70",
-    "@nuxt/ui": "^4.4.0",
-    "@nuxthub/core": "0.10.6",
-    "drizzle-orm": "^0.45.1",
-    "nuxt": "^4.3.1",
-    "tailwindcss": "^4.1.18",
-    "unstorage": "^1.17.4"
+    "@iconify-json/lucide": "^1.2.149",
+    "@iconify-json/simple-icons": "^1.2.101",
+    "@nuxt/ui": "^4.12.0",
+    "@nuxthub/core": "0.10.12",
+    "drizzle-orm": "^0.45.4",
+    "nuxt": "^4.6.3",
+    "tailwindcss": "^4.3.3",
+    "unstorage": "^1.17.6"
   },
   "devDependencies": {
-    "@libsql/client": "^0.17.0",
-    "@nuxt/eslint": "^1.14.0",
-    "@types/node": "^25.2.2",
-    "drizzle-kit": "^0.31.9",
-    "eslint": "^10.0.0",
+    "@libsql/client": "^0.18.0",
+    "@nuxt/eslint": "^1.17.0",
+    "@types/node": "^25.9.9",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^10.13.0",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.2.4"
+    "vue-tsc": "^3.3.14"
   },
-  "packageManager": "pnpm@10.29.2"
+  "packageManager": "pnpm@12.16.1+sha512.091d1dee7927575661b25dab3c2ae31cafc1c54d6b71ed6a6600cf0c1cb10434a447eae14015f1b23e2e6bedeed79df94a932e2164d2832280dce3fb32f656d1"
 }
